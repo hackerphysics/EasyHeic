@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="TooJpeg">
+      <UniqueIdentifier>{e44b80fc-2549-41d0-97bb-ad06874d239d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EasyHeic.cpp">
@@ -24,19 +27,25 @@
     <ClCompile Include="HeicUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="toojpeg.cpp">
+    <ClCompile Include="Livp2JPG.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="toojpeg.cpp">
+      <Filter>TooJpeg</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Heic2JPG.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="HeicUtils.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Livp2JPG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Heic2JPG.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="toojpeg.h">
-      <Filter>Source Files</Filter>
+      <Filter>TooJpeg</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
